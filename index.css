@@ -18,3 +18,8 @@ p {
   border-radius: 50%;
   object-fit: cover;
 }
+
+.janice-hedin-container {
+  display: flex;
+  flex-direction: column;
+}
