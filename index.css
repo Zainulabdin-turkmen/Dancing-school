@@ -32,3 +32,8 @@ img {
   border-radius: 50%;
   object-fit: cover;
 }
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
