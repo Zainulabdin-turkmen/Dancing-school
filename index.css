@@ -28,3 +28,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.sarah-container {
+  width: 48px;
+}
