@@ -20,10 +20,11 @@ p {
 }
 
 .janice-hedin-container,
-.location-para-container,
-.sarah-container {
+.sarah-container,
+.amanda-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -37,4 +38,23 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "janice sarah amanda"
+    "janice Dance Dance";
+  gap: 4rem;
+}
+
+.amanda-container {
+  grid-area: amanda;
+}
+
+.sarah-container {
+  grid-area: sarah;
+}
+.janice-hedin-location-para-container {
+  grid-area: janice;
+}
+
+.hedin-para-container {
+  grid-area: Dance;
 }
