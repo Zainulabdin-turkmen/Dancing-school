@@ -19,17 +19,14 @@ p {
   object-fit: cover;
 }
 
-.janice-hedin-container {
+.janice-hedin-container,
+.location-para-container,
+.sarah-container {
   display: flex;
   flex-direction: column;
 }
 
-.location-para-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.sarah-container img {
+img {
   width: 48px;
   height: 48px;
   border-radius: 50%;
