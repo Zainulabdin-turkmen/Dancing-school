@@ -23,3 +23,8 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.location-para-container {
+  display: flex;
+  flex-direction: column;
+}
